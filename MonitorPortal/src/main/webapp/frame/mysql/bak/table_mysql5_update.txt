@@ -1,0 +1,141 @@
+mysqld ¨Cinstall (mysql5.6) or mysqld-nt ¨Cinstall  (mysql3)
+
+C:\mysql\bin>mysql --user=root --password=miao@thunis mysql 
+
+mysql> insert into mysql.user(Host,User,Password) values("155.35.75.184","admin",password("cabji18n")); 
+create database linkrecord;
+
+
+mysql>GRANT ALL PRIVILEGES ON *.* TO admin@155.35.75.184 IDENTIFIED BY 'cabji18n' WITH GRANT OPTION;
+mysql>FLUSH PRIVILEGES;
+mysql>quit;
+
+http://wenku.baidu.com/link?url=lJYSLaC8DWgwGWklwhQDfR7cD9Zq1yEGRdsNlVlHe2GxZfaf80F7l192zueruuuThxfX7YaBWjPI6ljpFlALcgygmc-ZPpnENo9zJ0MOafy
+http://blog.sina.com.cn/s/blog_565fb0d40100jhcj.html
+
+mysql>update user set host = '%' where user = 'admin';
+mysql>FLUSH PRIVILEGES;
+mysql>quit;
+
+
+localhost
+c:\mysql\bin>
+mysql --host=localhost --database=thunis --user=octopus -p
+Enter password: miao@thunis
+
+enu2003
+c:\mysql\bin\mysqld-nt --standalone
+
+mysql --host=miaxi01enu2003 --database=linkrecord --user=admin -p
+cabji18n
+
+
+
+
+framework
+c:\mysql5\bin>
+mysql --host=framework --user=dbadmin --database=framedb -p
+cabji18n
+
+C:\mysql5\bin>mysql --user=root --password=miao@thunis mysql 
+insert into mysql.user(Host,User,Password) values("framework","dbadmin",password("cabji18n")); 
+create database framedb DEFAULT CHARACTER SET utf8;
+GRANT ALL PRIVILEGES ON *.* TO dbadmin@framework IDENTIFIED BY 'cabji18n' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+update user set host = '%' where user = 'dbadmin';
+FLUSH PRIVILEGES;
+quit;
+
+c:\mysql5\bin>
+mysql --host=framework --database=framedb --user=dbadmin -p
+mysql --host=liuyu04-r0 --database=framedb --user=dbadmin -p
+
+
+set names utf8;
+show variables like 'character_set_%';
+
+Change XPATHName varchar(50) unique default '',  to XPATHName varchar(50) default '',
+
+alter table XpathList add newtab tinyint default 0;
+alter table XpathList add TagOrURL varchar(10) default 'TagOrURL';
+alter table XpathList add NodeLevelID integer default -1;
+alter table domtypeList add newtab tinyint default 0;
+alter table ProjectReport add PlocNodeNumber integer default 0;
+alter table XpathList add AttributeCondition varchar(20) default 'contains';
+alter table domtypeList add AttributeCondition varchar(20) default 'contains';
+alter table uniqueList add AttributeCondition varchar(20) default 'contains';
+alter table excluderList add AttributeCondition varchar(20) default 'contains';
+alter table includerList add AttributeCondition varchar(20) default 'contains';
+alter table XpathList add ResourceBundle varchar(250) default '';
+
+alter table ProjectReport add UserName varchar(120) default '';
+alter table ProjectReport add RecordStartTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+alter table ProjectReport add RecordEndTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+alter table ProjectReport add RecordMins integer default 0;
+alter table ProjectReport add PlayStartTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+alter table ProjectReport add PlayEndTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+alter table ProjectReport add PlayMins integer default 0;
+
+drop table NodeParameter;
+drop table ProjectParameter;
+CREATE TABLE ProjectParameter (
+	ParaID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) unique default '',
+	ProductName varchar(20) default '',
+	Language varchar(20) default '',
+	URL varchar(250) default '',
+	SecurityName varchar(30) default '',
+	SecurityPW varchar(30) default '',
+	UserName varchar(30) default '',
+	Password varchar(30) default '',
+	TenantID varchar(30) default '',
+	DBServer varchar(20) default '',
+	UseHubNode tinyint default 0,
+	HubLink varchar(100) default '',
+	SessionNum integer default 1,
+	RunMode varchar(20) default '',
+	RecordID varchar(20) default '',
+	DebugServer varchar(100) default '',
+	DeleteChildTree varchar(30) default '',
+	TestPath varchar(30) default '',
+	ExtractNode varchar(30) default '',
+	ExtractNodeXPATH text default '',
+	OnlyRunFeatureTree varchar(30) default '',
+	DeleteTree varchar(30) default '',
+	MaxDepth integer default 9,
+	TimeFromParamter tinyint default 0,
+	PageLoadTime integer default 5,
+	FindElementTime integer default 5,
+	PluginAction varchar(30) default '',
+	EmailContact varchar(30) default '',
+	MenuFilter varchar(250) default '',
+	ProjectFilter varchar(250) default '',
+	Active tinyint default 0,
+	inuse tinyint default 1,
+        dropno integer default 0,
+	PRIMARY KEY (ParaID)
+);
+
+alter table XpathList add inuse tinyint default 1;
+alter table XpathList add dropno integer default 0;
+alter table domtypeList add inuse tinyint default 1;
+alter table domtypeList add dropno integer default 0;
+alter table uniqueList add inuse tinyint default 1;
+alter table uniqueList add dropno integer default 0;
+alter table excluderList add inuse tinyint default 1;
+alter table excluderList add dropno integer default 0;
+alter table includerList add inuse tinyint default 1;
+alter table includerList add dropno integer default 0;
+
+alter table ProjectParameter add Active tinyint default 1;
+alter table ProjectParameter add inuse tinyint default 1;
+alter table ProjectParameter add dropno integer default 0;
+alter table ProjectReport add Active tinyint default 1;
+alter table ProjectReport add inuse tinyint default 1;
+alter table ProjectReport add dropno integer default 0;
+alter table ProgressReport add Active tinyint default 1;
+alter table ProgressReport add inuse tinyint default 1;
+alter table ProgressReport add dropno integer default 0;
+
+insert into ProjectParameter set DebugServer='http://miaxi01enu2003',ProjectID='00000815',ProductName='MCC';
+update ProjectParameter set DebugServer='http://miaxi01enu2003',ProductName='MCC' where ProjectID='00000815';

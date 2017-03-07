@@ -1,0 +1,33 @@
+drop table EmailList;
+CREATE TABLE EmailList(
+               EmailID integer NOT null AUTO_INCREMENT,
+               ProjectID varchar(20) default '' , 
+               EmailName varchar(50) default '' , 
+               EmailAddress varchar(50) unique default '' , 
+               Active tinyint default 0,
+               PRIMARY KEY (EmailID)
+);
+
+drop table PlocTable;
+CREATE TABLE PlocTable (
+               PlocID integer NOT null AUTO_INCREMENT,
+               ProjectID varchar(20) default '' , 
+               NodePath varchar(100) default '' , 
+               KeyNumber integer default 0,
+               KeyID varchar(20)  default '' , 
+               Content varchar(250) default '' , 
+               Active tinyint default 0,
+               PRIMARY KEY (PlocID)
+);
+
+drop table NewFuzzyTable;
+CREATE TABLE NewFuzzyTable (
+               NewFuzzyID integer NOT null AUTO_INCREMENT,
+               ProjectID varchar(20) default '' , 
+               NodePath varchar(100) default '' , 
+               KeyNumber integer default 0,
+               KeyID varchar(20)  default '' , 
+               Content varchar(250) default '' , 
+               Active tinyint default 0,
+               PRIMARY KEY (NewFuzzyID)
+);

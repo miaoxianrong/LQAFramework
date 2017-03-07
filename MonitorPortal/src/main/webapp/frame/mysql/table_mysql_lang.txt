@@ -1,0 +1,66 @@
+
+c:\mysql5\bin>
+mysql --user=admin --database=linkrecord -p
+cabji18n
+
+[client]
+default-character-set=utf8
+[mysqld]
+default-character-set=utf8
+
+#[mysql]
+#default-character-set=utf8
+
+character-set-server=utf8 only work for insert in [mysqld], not work for [mysql],[client]
+
+set names utf8;
+show variables like 'character_set_%';
+
+restart
+
+http://blog.csdn.net/sunboyzsm/article/details/17511511
+http://dev.mysql.com/doc/refman/4.1/en/mysql-command-options.html#option_mysql_default-character-set
+
+A common issue that can occur when the operating system uses utf8 or another multi-byte character set is that output from the mysql client is formatted incorrectly,
+ due to the fact that the MySQL client uses the latin1 character set by default. 
+ You can usually fix such issues by using this option to force the client to use the system character set instead.
+
+check:
+db.opt
+show create table xpath;
+show full fields from xpath; 
+show variables like 'char%'
+
+
+set name 'utf8';
+character_set_client,character_set_connection,character_set_results
+
+ADO.NET, ADO
+Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword; CharSet=UTF8;
+
+
+ big5     | Big5 Traditional Chinese
+ gb2312   | GB2312 Simplified Chinese
+ gbk      | GBK Simplified Chinese
+ utf8     | UTF-8 Unicode
+ 
+ Solution 1:
+ Install with my.ini (rename my-default.ini)
+ Solution 2:
+ Delete database, create database again.
+ 
+ 
+ C:\mysql5\bin>mysql --user=root --password=miao@thunis mysql 
+insert into mysql.user(Host,User,Password) values("framework","dbadmin",password("cabji18n")); 
+create database framedb DEFAULT CHARACTER SET utf8;
+GRANT ALL PRIVILEGES ON *.* TO dbadmin@framework IDENTIFIED BY 'cabji18n' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+update user set host = '%' where user = 'dbadmin';
+FLUSH PRIVILEGES;
+quit;
+
+c:\mysql5\bin>
+mysql --host=framework --database=framedb --user=dbadmin -p
+mysql --host=liuyu04-r0 --database=framedb --user=dbadmin -p
+
+

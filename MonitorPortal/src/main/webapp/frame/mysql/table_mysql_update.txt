@@ -1,0 +1,51 @@
+mysqld ¨Cinstall (mysql5.6) or mysqld-nt ¨Cinstall  (mysql3)
+
+C:\mysql\bin>mysql --user=root --password=miao@thunis mysql 
+
+mysql> insert into mysql.user(Host,User,Password) values("155.35.75.184","admin",password("cabji18n")); 
+create database linkrecord;
+
+
+mysql>GRANT ALL PRIVILEGES ON *.* TO admin@155.35.75.184 IDENTIFIED BY 'cabji18n' WITH GRANT OPTION;
+mysql>FLUSH PRIVILEGES;
+mysql>quit;
+
+http://wenku.baidu.com/link?url=lJYSLaC8DWgwGWklwhQDfR7cD9Zq1yEGRdsNlVlHe2GxZfaf80F7l192zueruuuThxfX7YaBWjPI6ljpFlALcgygmc-ZPpnENo9zJ0MOafy
+http://blog.sina.com.cn/s/blog_565fb0d40100jhcj.html
+
+mysql>update user set host = '%' where user = 'admin';
+mysql>FLUSH PRIVILEGES;
+mysql>quit;
+
+
+localhost
+c:\mysql\bin>
+mysql --host=localhost --database=thunis --user=octopus -p
+Enter password: miao@thunis
+
+enu2003
+c:\mysql\bin\mysqld-nt --standalone
+
+mysql --host=miaxi01enu2003 --database=linkrecord --user=admin -p
+cabji18n
+
+miaxi01hub01
+c:\mysql5\bin>
+mysql --user=admin --database=linkrecord -p
+cabji18n
+
+set names utf8;
+show variables like 'character_set_%';
+
+Change XPATHName varchar(50) unique default '',  to XPATHName varchar(50) default '',
+
+alter table XpathList add newtab tinyint default 0;
+alter table XpathList add TagOrURL varchar(10) default 'TagOrURL';
+alter table XpathList add NodeLevelID integer default -1;
+alter table domtypeList add newtab tinyint default 0;
+alter table ProjectReport add PlocNodeNumber integer default 0;
+alter table XpathList add AttributeCondition varchar(20) default 'contains';
+alter table domtypeList add AttributeCondition varchar(20) default 'contains';
+alter table uniqueList add AttributeCondition varchar(20) default 'contains';
+alter table excluderList add AttributeCondition varchar(20) default 'contains';
+alter table includerList add AttributeCondition varchar(20) default 'contains';

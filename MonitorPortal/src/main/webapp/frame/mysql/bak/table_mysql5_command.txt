@@ -1,0 +1,3 @@
+c:\mysql5\bin>
+mysql --host=framework --database=framedb --user=dbadmin -p
+mysql --host=liuyu04-r0 --database=framedb --user=dbadmin -p

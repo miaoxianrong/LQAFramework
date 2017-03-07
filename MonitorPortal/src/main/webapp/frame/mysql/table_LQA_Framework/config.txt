@@ -1,0 +1,42 @@
+mysqld ¨Cinstall (mysql5.6) or mysqld-nt ¨Cinstall  (mysql3)
+
+C:\mysql\bin>mysql --user=root --password=miao@thunis mysql 
+
+mysql> insert into mysql.user(Host,User,Password) values("155.35.75.184","admin",password("cabji18n")); 
+create database linkrecord;
+
+
+mysql>GRANT ALL PRIVILEGES ON *.* TO admin@155.35.75.184 IDENTIFIED BY 'cabji18n' WITH GRANT OPTION;
+mysql>FLUSH PRIVILEGES;
+mysql>quit;
+
+http://wenku.baidu.com/link?url=lJYSLaC8DWgwGWklwhQDfR7cD9Zq1yEGRdsNlVlHe2GxZfaf80F7l192zueruuuThxfX7YaBWjPI6ljpFlALcgygmc-ZPpnENo9zJ0MOafy
+http://blog.sina.com.cn/s/blog_565fb0d40100jhcj.html
+
+mysql>update user set host = '%' where user = 'admin';
+mysql>FLUSH PRIVILEGES;
+mysql>quit;
+
+
+localhost
+c:\mysql\bin>
+mysql --host=localhost --database=thunis --user=octopus -p
+Enter password: miao@thunis
+
+enu2003
+c:\mysql\bin\mysqld-nt --standalone
+
+mysql --host=miaxi01enu2003 --database=linkrecord --user=admin -p
+cabji18n
+
+
+
+C:\mysql5\bin>mysql --user=root --password=miao@thunis mysql 
+insert into mysql.user(Host,User,Password) values("framework","dbadmin",password("cabji18n")); 
+create database framedb DEFAULT CHARACTER SET utf8;
+GRANT ALL PRIVILEGES ON *.* TO dbadmin@framework IDENTIFIED BY 'cabji18n' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+update user set host = '%' where user = 'dbadmin';
+FLUSH PRIVILEGES;
+quit;
+

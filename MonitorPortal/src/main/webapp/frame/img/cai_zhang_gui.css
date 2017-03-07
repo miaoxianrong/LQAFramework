@@ -1,0 +1,14 @@
+body,td,th {
+	font-size: 12px;
+	color: #000000;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: repeat;
+}
+.srk {
+	border: 1px solid #B4BBC1;
+	WIDTH: 120px

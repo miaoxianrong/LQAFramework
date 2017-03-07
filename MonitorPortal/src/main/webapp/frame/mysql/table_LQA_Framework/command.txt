@@ -1,0 +1,16 @@
+c:\mysql\bin>
+mysql --host=localhost --database=thunis --user=octopus -p
+miao@thunis
+
+
+e:\mysql5\bin>mysql --host=sandbox --database=framedb --user=dbadmin -p
+mysql --host=framework --database=framedb --user=dbadmin -p
+mysql --host=liuyu04-r0 --database=framedb --user=dbadmin -p
+cabji18n
+
+
+
+select MenuHref from NodeList where NodePath='033-1-14';
+insert into ProjectParameter set ProjectID='00000707', ProductName='ITKO';
+update ProjectParameter set ProductName='ITKO' where ProjectID='00000707';
+update ProjectReport set ProductName='ITKO' where ProjectID='00000707';

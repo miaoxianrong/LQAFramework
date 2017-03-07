@@ -1,0 +1,23 @@
+mysqld --install MySQL --defaults-file="c:\mysql5\my.ini"
+mysqld --remove MySQL --defaults-file="c:\mysql5\my.ini"
+[client]
+default-character-set=utf8
+
+[mysqld]
+#           sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
+
+
+
+alter table ProjectParameter add ProjectTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+alter table ProjectReport add ProjectTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+
+alter table ProjectParameter add ScreenPath varchar(150) default '';
+alter table ProjectReport add ScreenPath varchar(150) default '';
+
+alter table ProjectParameter add ZipPath varchar(150) default '';
+alter table ProjectReport add ZipPath varchar(150) default '';
+
+
+alter table ProjectParameter add buildno varchar(30) default '';
+alter table ProjectReport add buildno varchar(30) default '';
+

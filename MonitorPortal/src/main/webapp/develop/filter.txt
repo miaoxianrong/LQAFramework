@@ -1,0 +1,25 @@
+Message:
+	already,error,must,abandoned,fail,succeeded,Msgs,Exception,message,missing,Disable,not,Allow,Invalid,Error,existing,invalid,Invalid,Permission,null,Unable,Verify,msg.,required,warning,expire,exceeds,successful,denied,No data,Please,should be,Update
+LogEvent:
+	yyyy,log,Event
+FolderFile:
+	C:
+Install/Uninstall:
+	setup,install,uninstall
+tooltip:
+	tooltip
+Configuration:
+	Conf
+
+
+SiteMinder:
+AdvAuth:
+	AdvAuth
+Sign-On:
+	Sign-On
+SSO:
+	SSO
+License:
+	License,Key,CertRequired
+Configuration:
+	config,Conf,conf

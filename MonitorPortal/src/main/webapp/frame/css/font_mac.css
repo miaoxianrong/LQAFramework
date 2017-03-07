@@ -1,0 +1,9 @@
+.mycfont11 { font-size: 11pt; font-family: "ËÎÌו"; font-style: normal}
+.mycfont9 { font-size: 9pt; font-family: "ËÎÌו"; line-height: 13pt}
+
+.form { background-color: #FFFFCC; font-size: 9pt; line-height: 13pt; font-family: ËÎÌו }
+
+a:visited { text-decoration: none }
+a:active  { text-decoration: none }
+a:link    { text-decoration: none }
+a:hover   { text-decoration: underline}

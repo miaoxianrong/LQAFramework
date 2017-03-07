@@ -1,0 +1,329 @@
+CREATE TABLE NodeList (
+	ListID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) default '' ,
+	ProjectName varchar(50) default '' ,
+	Feature varchar(50) default '' ,
+	ParentFilter text default '' ,
+	PageFilter text default '' ,
+	DOMType varchar(20) default '' ,
+	TagOrURL varchar(10) default 'Tag' ,
+	MenuHref text default '' , 
+	mainFeature  tinyint default 0,
+	getSubMenu tinyint default 0,
+	RootURLNodePath varchar(250) default '',
+	LevelID integer default 2,
+	ParentID integer default 0,
+	ParentSeq integer default 0,
+	AllParentID varchar(250) default '',
+	NodePath varchar(250) default '',
+	seq integer default 1,
+	special tinyint default 0,
+	touching tinyint default 0,
+	touchonce tinyint default 0,
+	visible tinyint default 0,
+	clickable tinyint default 1,
+	samepage tinyint default 0,
+	vector varchar(250) unique default '',
+	uniqueObject varchar(250)   default '',
+	uniquevector tinyint default 0,
+	branch tinyint default 0,
+	leaf tinyint default 0,
+	popup tinyint default 0,
+	mainMenuFilter tinyint default 0,
+	includerFilter tinyint default 0,
+	excluderFilter tinyint default 0,
+	noLessLeafFilter tinyint default 0,
+	forceSetBranchFilter tinyint default 0,
+	noMoreUniqueFilter tinyint default 0,
+	hasChild integer default 0,
+	childNum integer default 0,
+	childList text default '',
+	validNode tinyint default 0,
+	capture tinyint default 0,
+	screenName varchar(150) default '',
+	screenDesc varchar(150) default '',
+	tagName varchar(20) default '',	
+	nodeId varchar(50) default '',
+	nodeClass varchar(100) default '' ,
+	nodeTitle varchar(100) default '' ,
+	nodeText text default '',
+	nodeName varchar(100) default '' ,
+	nodeValue varchar(50) default '' ,
+	nodeType varchar(50) default '' ,
+	nodeHref text default '' ,
+	onclick varchar(150) default '' ,
+	onkeydown varchar(150) default '' ,	
+	playonce tinyint default 0,
+	touchtime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	clickfail tinyint default 0,
+	clicktimes integer default 0,
+	extractfail tinyint default 0, 
+	AgentNo tinyint default 0,
+	vectorText text default '' ,
+	inQueue tinyint default 0,
+	snapshot tinyint default 0,
+	plocNumber integer default 0,
+	fuzzyNumber integer default 0,
+	newStringNumber integer default 0,
+	newPloc tinyint default 0,
+	newFuzzy tinyint default 0,
+	newString tinyint default 0,
+	Active tinyint default 0,
+	PRIMARY KEY (ListID)
+);
+
+CREATE TABLE XpathList (
+        XpathID integer NOT null AUTO_INCREMENT,
+        LevelID integer default 1,
+        PathSeq integer default 1,
+        XpathPath varchar(250) default '',
+        ProjectID varchar(20) default '' , 
+        UserID varchar(20) default '' , 
+        ProjectName varchar(50) default '' ,
+	ParentName varchar(50) default '-1',
+	ParentSeq varchar(250) default '',
+	NodeLevelID integer default -1,
+	tagName varchar(20) default '-1' , 
+	Attribute varchar(20) default '-1' , 
+	AttributeCondition varchar(20) default 'contains' , 
+	AttributeValue varchar(250) default '',
+	XPATHName varchar(50) default '',
+	XPATHDesc varchar(250) default '',
+	seq varchar(250) default '',
+	XPATH text default '',
+	TagOrURL varchar(10) default 'TagOrURL' ,	
+	DOMType varchar(100) default '-1' ,
+	popup tinyint default 0,
+	newtab tinyint default 0,
+	dropdown tinyint default 0,
+	doubleclick tinyint default 0,
+	mouseright tinyint default 0,
+	mouseover tinyint default 0,
+	tips tinyint default 0,
+	frame tinyint default 0,
+	iframe tinyint default 0,	
+	leaf tinyint default 0,	
+	fromXML tinyint default 0,
+	fromCSV tinyint default 0,
+        Active tinyint default 0,
+        PRIMARY KEY (XpathID)
+);
+
+CREATE TABLE domtypeList (
+        domtypeID integer NOT null AUTO_INCREMENT,        
+        ProjectID varchar(20) default '' , 
+        UserID varchar(20) default '' , 
+        ProjectName varchar(50) default '' ,	
+        ParentName varchar(50) default '-1',
+	ParentSeq varchar(250) default '',
+	tagName varchar(20) default '-1' , 
+	Attribute varchar(20) default '-1' , 
+	AttributeCondition varchar(20) default 'contains' , 
+	AttributeValue varchar(250) default '' , 
+	domtypeName varchar(20) default '', 
+	DOMType varchar(100) default '-1',
+	popup tinyint default 0,
+	newtab tinyint default 0,
+	dropdown tinyint default 0,
+	doubleclick tinyint default 0,
+	mouseright tinyint default 0,
+	mouseover tinyint default 0,
+	tips tinyint default 0,
+	frame tinyint default 0,
+	iframe tinyint default 0,	
+	leaf tinyint default 0,
+        Active tinyint default 0,
+        PRIMARY KEY (domtypeID)
+);
+
+
+CREATE TABLE uniqueList (
+        uniqueID integer NOT null AUTO_INCREMENT,        
+        ProjectID varchar(20) default '' , 
+        UserID varchar(20) default '' , 
+        ProjectName varchar(50) default '' ,	
+        ParentName varchar(50) default '-1',
+	ParentSeq varchar(250) default '',
+	tagName varchar(20) default '-1' , 
+	Attribute varchar(20) default '-1' , 
+	AttributeCondition varchar(20) default 'contains' , 
+	AttributeValue varchar(250) default '' , 
+	uniqueName varchar(20) default '', 
+        Active tinyint default 0,
+        PRIMARY KEY (uniqueID)
+);
+
+CREATE TABLE excluderList (
+        excluderID integer NOT null AUTO_INCREMENT,        
+        ProjectID varchar(20) default '' , 
+        UserID varchar(20) default '' , 
+        ProjectName varchar(50) default '' ,	
+        ParentName varchar(50) default '-1',
+	ParentSeq varchar(250) default '',
+	tagName varchar(20) default '-1', 
+	Attribute varchar(20) default '-1', 
+	AttributeCondition varchar(20) default 'contains' , 
+	AttributeValue varchar(250) default '' , 
+	excluderName varchar(20) default '', 
+        Active tinyint default 0,
+        PRIMARY KEY (excluderID)
+);
+
+
+CREATE TABLE includerList (
+        includerID integer NOT null AUTO_INCREMENT,        
+        ProjectID varchar(20) default '' , 
+        UserID varchar(20) default '' , 
+        ProjectName varchar(50) default '' ,	
+        ParentName varchar(50) default '-1',
+	ParentSeq varchar(250) default '',
+	tagName varchar(20) default '-1', 
+	Attribute varchar(20) default '-1', 
+	AttributeCondition varchar(20) default 'contains' , 
+	AttributeValue varchar(250) default '' , 
+	includerName varchar(20) default '', 
+        Active tinyint default 0,
+        PRIMARY KEY (includerID)
+);
+
+CREATE TABLE UIText (
+               UITextID integer NOT null AUTO_INCREMENT,
+               ProjectID varchar(20) default '' , 
+               NodePath varchar(100) default '' , 
+               KeyNumber integer default 0,
+               KeyID varchar(20) unique default '' , 
+               Content varchar(250) default '' , 
+               Active tinyint default 0,
+               PRIMARY KEY (UITextID)
+);
+
+CREATE TABLE PlocTable (
+               PlocID integer NOT null AUTO_INCREMENT,
+               ProjectID varchar(20) default '' , 
+               NodePath varchar(100) default '' , 
+               KeyNumber integer default 0,
+               KeyID varchar(20) unique default '' , 
+               Content varchar(250) default '' , 
+               Active tinyint default 0,
+               PRIMARY KEY (PlocID)
+);
+
+CREATE TABLE NewFuzzyTable (
+               NewFuzzyID integer NOT null AUTO_INCREMENT,
+               ProjectID varchar(20) default '' , 
+               NodePath varchar(100) default '' , 
+               KeyNumber integer default 0,
+               KeyID varchar(20) unique default '' , 
+               Content varchar(250) default '' , 
+               Active tinyint default 0,
+               PRIMARY KEY (NewFuzzyID)
+);
+
+CREATE TABLE NodeText (
+	TextID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) default '' ,	
+	Content varchar(250) unique default '' , 
+	Active tinyint default 0,
+	PRIMARY KEY (TextID)
+);
+
+CREATE TABLE NodeAllText (
+	TextID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) default '' , 
+        NodePath varchar(100) default '' , 
+	Content varchar(250) unique default '' , 
+	Active tinyint default 0,
+	PRIMARY KEY (TextID)
+);
+
+
+CREATE TABLE NodeLog (
+	LogID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) default '' ,	
+	Severity tinyint default 0,
+	NodePath varchar(100) default '' , 
+	Content text default '' , 
+	LogTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	Active tinyint default 0,
+	PRIMARY KEY (LogID)
+);
+
+CREATE TABLE NodeTest (
+	TestID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) default '' ,	
+	NodePath varchar(250) default '' , 
+	Active tinyint default 0,
+	PRIMARY KEY (TestID)
+);
+
+CREATE TABLE ProjectParameter (
+	ParaID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) unique default '',
+	ProductName varchar(20) default '',
+	Language varchar(20) default '',
+	URL varchar(250) default '',
+	SecurityName varchar(30) default '',
+	SecurityPW varchar(30) default '',
+	UserName varchar(30) default '',
+	Password varchar(30) default '',
+	TenantID varchar(30) default '',
+	DBServer varchar(20) default '',
+	UseHubNode tinyint default 0,
+	HubLink varchar(100) default '',
+	SessionNum integer default 1,
+	RunMode varchar(20) default '',
+	DebugServer varchar(100) default '',
+	DeleteChildTree varchar(30) default '',
+	TestPath varchar(30) default '',
+	ExtractNode varchar(30) default '',
+	ExtractNodeXPATH text default '',
+	OnlyRunFeatureTree varchar(30) default '',
+	DeleteTree varchar(30) default '',
+	MaxDepth integer default 9,
+	TimeFromParamter tinyint default 0,
+	PageLoadTime integer default 5,
+	FindElementTime integer default 5,
+	PluginAction varchar(30) default '',
+	EmailContact varchar(30) default '',
+	MenuFilter varchar(250) default '',
+	ProjectFilter varchar(250) default '',
+	PRIMARY KEY (ParaID)
+);
+
+CREATE TABLE ProjectReport (
+	ReportID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) unique default '',
+	ProductName varchar(20) default '',
+	UserName varchar(120) default '',
+	Deepth2Coverage integer default 0,
+	Deepth3Coverage integer default 0,
+	Deepth4Coverage integer default 0,
+	Deepth5Coverage integer default 0,
+	Deepth6Coverage integer default 0,
+	ScreenNumber  integer default 0,
+	PlayNumber integer default 0,
+	PlocNodeNumber integer default 0,
+	plocNumber integer default 0,
+	fuzzyNumber integer default 0,
+	newStringNumber integer default 0,
+	RecordStartTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	RecordEndTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	RecordMins integer default 0,
+	PlayStartTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PlayEndTime DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PlayMins integer default 0,
+	PRIMARY KEY (ReportID)
+);
+
+CREATE TABLE ProgressReport (
+	ProgressID integer NOT null AUTO_INCREMENT,
+	ProjectID varchar(20) unique default '' ,
+	ProductName varchar(20) default '' ,
+	Deepth2Coverage integer default 0,
+	Deepth3Coverage integer default 0,
+	Deepth4Coverage integer default 0,
+	Deepth5Coverage integer default 0,
+	Deepth6Coverage integer default 0,
+	ScreenNumber  integer default 0, 
+	PRIMARY KEY (ProgressID)
+);

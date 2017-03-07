@@ -1,0 +1,461 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em "Segoe UI", "Tahoma", "Verdana" !important;
+}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 120% "Segoe UI", "Tahoma", "Verdana";
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  font-weight: bold;}
+
+h2
+{ font: normal 90% "Segoe UI", "Tahoma", "Verdana";
+  color: #000000;
+  font-weight: bold;
+  }
+
+h3
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 100% "Segoe UI", "Tahoma", "Verdana";
+  color: #000;
+  font-weight: bold;
+  }
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 100% "Segoe UI", "Tahoma", "Verdana";
+  color: #000;}
+
+h5, h6
+{ font: italic 95% "Segoe UI", "Tahoma", "Verdana";
+  padding: 0 0 15px 0;
+  color: #000;}
+
+h6
+{ color: #362C20;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #1293EE;}
+
+a:hover
+{ text-decoration: none;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: left;
+  margin: 20px auto;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: 0; 
+  margin-right: 0;}
+
+#header
+{ background: #FFFFF url(back.png) repeat-x;
+  height: 177px;}
+  
+#logo
+{ 
+  position: relative;
+  height: 60px;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 2px;
+  left: 1px;}
+
+#logo h1, #logo h2
+{ font: normal 300% "Segoe UI", "Tahoma", "Verdana";
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 10px 0 0 5px;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;}
+
+#logo_text h1 a .logo_colour
+{ color: #1293EE;}
+
+#logo_text h2
+{ font-size: 100%;
+  padding: 4px 0 0 0;
+  color: #DDD;}
+  
+#headersign
+{ width: 825px;
+  position: relative;
+  height: 100px;
+  aligh: right;}
+  
+.rightmenu
+{ float: right;
+  padding: 40px 5px 2px 2px; 
+  width: 65px;
+  height: 10px; 
+  font: 100% "Segoe UI", "Tahoma", "Verdana"; 
+  border: 0px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.rightmenu :hover
+{ text-decoration: underline;}
+
+.bluebar {
+    font-family: "Segoe UI", "Tahoma", "Verdana";
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #0D66A5;
+    padding: 3px 3px 3px 15px;
+}
+
+.greybar
+{
+    border-top: 1px solid #b3b3b4;
+    color: #FFFFFF;
+    background: #eee;
+    padding: 0px;
+}
+#menubar
+{ width: 385px;
+  height: 30px;
+  margin: 0 0 0 20px;
+  padding: 2px 2px 2px 2px;
+  background: #37a1ec;} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% "Segoe UI", "Tahoma", "Verdana";
+  display: block; 
+  float: left; 
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;
+  background: #0D66A5;}
+  
+ul#menu li a:hover
+{
+   color: #FFF;
+   background: #1293EE;
+   text-decoration: underline;
+}
+
+#site_content
+{ 
+  overflow: hidden;
+  margin: 0 0 0 0;
+  padding: 0px 24px 2px 37px;
+  background: #FFF;} 
+
+.sidebar
+{ float: right;
+  width: 190px;
+  padding: 0 15px 20px 15px;}
+
+.sidebar b
+ { 
+   width: 10px;
+   color: #FF0000;
+ }
+ .sidebar checkbox
+ { margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+.sidebar ul
+{ width: 178px; 
+  padding: 4px 0 0 0; 
+  margin: 4px 0 30px 0;}
+
+.sidebar li
+{ list-style: none; 
+  padding: 0 0 7px 0; }
+
+.sidebar li a, .sidebar li a:hover
+{ padding: 0 0 0 40px;
+  display: block;
+  background: transparent url(link.png) no-repeat left center;} 
+
+.sidebar li a.selected
+{ color: #444;
+  text-decoration: none;} 
+
+#content
+{ 
+align: left;	
+text-align: left;
+  width: 595px;
+  padding: 0;}
+
+#content b
+ { 
+   width: 10px;
+   text-align: left;
+   color: #FF0000;
+ }
+ 
+#content ul
+{ margin: 2px 0 2px 0px;}
+
+#content ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+#footer
+{   font-size: 90%;
+  background-color: white;
+  padding: 10px 4px;
+  text-align: right;
+  border-top: 2px solid #eee;
+  /*position: fixed;
+  right:0;
+  bottom:0;
+  width: 100%;*/
+  z-index: 999;}
+
+#footer a
+{ color: #1293EE;
+text-decoration: none;}
+
+#footer a:hover
+{ color: #0D66A5;
+  text-decoration: underline;}
+
+.search
+{ color: #5D5D5D; 
+  border: 1px solid #BBB; 
+  width: 134px; 
+  padding: 4px; 
+  font: 100% "Segoe UI", "Tahoma", "Verdana";}
+
+#colours
+{ height: 0px;
+  text-align: right;
+  padding: 66px 16px 0px 300px;}
+  
+.form_settings
+{ margin: 0 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;
+  font: bold;}
+  
+ .form_settings b
+ { float: left;
+   width: 10px;
+   text-align: left;
+   color: #FF0000;
+ }
+ 
+.form_settings input, .form_settings textarea
+{ padding: 0px; 
+  width: 299px; 
+  font: 100% "Segoe UI", "Tahoma", "Verdana"; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% "Segoe UI", "Tahoma", "Verdana"; 
+  border: 1px solid; 
+  width: 60px; 
+  margin: 0 0 0 212px; 
+  height: 25px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #1293EE; 
+  color: #FFF;}
+  
+.form_settings .submit:hover
+{ 
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.form_settings .view
+{ font: 100% "Segoe UI", "Tahoma", "Verdana"; 
+  border: 1px solid; 
+  width: 60px; 
+  margin: 0 0 0 0px; 
+  height: 25px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #1293EE; 
+  color: #FFF;}
+  
+.form_settings .view:hover
+{ color: #0D66A5;
+text-decoration: underline;
+}
+
+.form_settings textarea, .form_settings select
+{ font: 100% "Segoe UI", "Tahoma", "Verdana"; 
+  width: 299px;}
+
+.form_settings select
+{ width: 290px;}
+
+.form_settings .checkbox
+{ 
+  align: left;
+  padding: 0; 
+  border: 0;
+  background: none;}
+
+.separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;}
+  
+table
+{ margin: 10px 0 20px 0;}
+
+table tr th, table tr td
+{ background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+/*   padding: 7px, 3px, 4px, 3px; */
+  text-align: left;}
+  
+table tr td
+{ background: #F0EFE2;
+  color: #47433F;
+  border-top: 1px solid #FFF;}
+  
+.search
+{ background: #FFFFFF;
+  color: #47433F;
+  border: 0;
+  align: center;}
+  
+
+.help
+{
+	width: 580px;
+	background: #F0EFE2;
+	padding: 1px 3px 1px 3px;
+	color: #000000;
+	font: 90% "Segoe UI", "Tahoma", "Verdana"	
+}
+
+.help:hover
+{
+  outline: #1293EE;
+  background: #47433F;
+  color: #FFF;
+  cursor: pointer; 
+}
+
+.divmouseon:hover
+{
+  cursor: pointer; 
+
+}
+
+.progress
+{
+	color: #000;
+	
+	box-shadow: inset 0 2px 4px rgba(0,0,0,.3)!important;
+}
+
+.abort
+{ font: 90% "Segoe UI", "Tahoma", "Verdana"; 
+  border: 1px solid; 
+  width: 60px; 
+  margin: 0 0 0 20px; 
+  height: 25px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #1293EE; 
+  color: #FFF;}
+  
+.abort:hover
+{ 
+  color: #FFF;
+  text-decoration: underline;
+  background: #0D66A5; 
+}
+
+.error
+{
+	color: #ff0000;
+	font: bold;
+}

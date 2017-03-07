@@ -1,0 +1,861 @@
+.Î´ÃüÃû1 {
+	FONT-SIZE: 12px
+}
+.Î´ÃüÃû2 {
+	COLOR: #000000; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+.Î´ÃüÃû3 {
+	COLOR: #000000; FONT-SIZE: 12px
+}
+.Î´ÃüÃû4 {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+DIV {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 9pt
+}
+P {
+	FONT-SIZE: 12px
+}
+BODY {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+INPUT {
+	COLOR: #000000; FONT-SIZE: 9pt
+}
+inputtypetext {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid
+}
+SELECT {
+	COLOR: #000000; FONT-SIZE: 9pt
+}
+.input {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #9a9999 1px solid; BORDER-LEFT: #9a9999 1px solid; BORDER-RIGHT: #9a9999 1px solid; BORDER-TOP: #9a9999 1px solid; FONT-SIZE: 12px
+}
+.bigfont {
+	COLOR: #000000; FONT-SIZE: 14px
+}
+.boldfont {
+	COLOR: #000000; FONT-WEIGHT: bold
+}
+BODY {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+INPUT.input_button {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid
+}
+DIV.div_popup_info {
+	LEFT: 120px; POSITION: absolute; TOP: 230px; VISIBILITY: hidden; WIDTH: 350px; Z-INDEX: 1
+}
+TABLE.table_name_value {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; WIDTH: 550px
+}
+TABLE.table_name_value TD {
+	BACKGROUND: #e8e8e8; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; COLOR: #000000; HEIGHT: 22px
+}
+TABLE.table_name_value TR.tr_header TD {
+	BACKGROUND: #d2d2d2; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+TABLE.table_name_value TR.tr_header TD.td_choice {
+	BACKGROUND: #ffffff; WIDTH: 20px
+}
+TABLE.table_name_value TR.tr_header TD.td_choice INPUT {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid
+}
+TABLE.table_name_value TD.td_sheettitle {
+	BACKGROUND: #b4b4b4; FONT-SIZE: 11pt; TEXT-ALIGN: center
+}
+TABLE.table_name_value TD.td_name {
+	FONT-WEIGHT: bold; PADDING-RIGHT: 8px; TEXT-ALIGN: right; WIDTH: 150px
+}
+TABLE.table_name_value TD.td_value {
+	PADDING-LEFT: 10px; WIDTH: 300px
+}
+TABLE.table_name_value TD.td_value inputtypetext {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid
+}
+TABLE.table_name_value TD.td_group {
+	BACKGROUND: #d8d8d8; FONT-WEIGHT: bold; PADDING-LEFT: 20px; TEXT-DECORATION: underline
+}
+TABLE.table_name_value TD.td_description {
+	PADDING-LEFT: 10px
+}
+TABLE.table_name_value TD.td_description INPUT {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid
+}
+TABLE.table_name_value TD.td_notice {
+	TEXT-ALIGN: center
+}
+TABLE.table_Info_List {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; WIDTH: 550px
+}
+TABLE.table_Info_List TD {
+	BACKGROUND: #e8e8e8; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; HEIGHT: 22px
+}
+TABLE.table_Info_List TD A:link {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TABLE.table_Info_List TD A:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TABLE.table_Info_List TD A:hover {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+TABLE.table_Info_List TR.tr_header TD {
+	BACKGROUND: #d0d0d0; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; TEXT-ALIGN: center
+}
+TABLE.table_Info_List TD.td_choice {
+	WIDTH: 20px
+}
+TABLE.table_Info_List TD.td_sn {
+	TEXT-ALIGN: center; WIDTH: 30px
+}
+TABLE.table_Info_List TD.td_col1 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px; WIDTH: 110px
+}
+TABLE.table_Info_List TD.td_col2 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px; WIDTH: 110px
+}
+TABLE.table_Info_List TD.td_col3 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px; WIDTH: 110px
+}
+TABLE.table_Info_List TD.td_col4 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px; WIDTH: 110px
+}
+TABLE.table_Info_List TD.td_col5 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px; WIDTH: 120px
+}
+TABLE.table_Info_List TD.td_history {
+	TEXT-ALIGN: center; WIDTH: 30px
+}
+TABLE.table_Info_List TD.td_status {
+	TEXT-ALIGN: center; WIDTH: 30px
+}
+TABLE.table_Info_List TD.td_account {
+	TEXT-ALIGN: center; WIDTH: 30px
+}
+TABLE.table_Info_List TD.td_dir {
+	BACKGROUND: #cccccc; FONT-WEIGHT: bold; PADDING-LEFT: 30px
+}
+TABLE.table_Info_List TD.td_filesn {
+	TEXT-ALIGN: center; WIDTH: 40px
+}
+TABLE.table_Info_List TD.td_filename {
+	TEXT-ALIGN: left; WIDTH: 200px
+}
+TABLE.table_Info_List TD.td_filesize {
+	TEXT-ALIGN: center; WIDTH: 120px
+}
+TABLE.table_Info_List TD.td_filemoditime {
+	TEXT-ALIGN: center; WIDTH: 160px
+}
+TABLE.table_Info_List TD.td_filedown {
+	TEXT-ALIGN: center; WIDTH: 35px
+}
+TABLE.table_Info_List TD.td_fileread {
+	TEXT-ALIGN: center; WIDTH: 35px
+}
+TABLE.table_Info_List TD.td_addname {
+	TEXT-ALIGN: center; WIDTH: 150px
+}
+TABLE.table_Info_List TD.td_addemail {
+	TEXT-ALIGN: center; WIDTH: 170px
+}
+TABLE.table_Info_List TD.td_addmobile {
+	TEXT-ALIGN: center; WIDTH: 160px
+}
+TABLE.table_Info_List TD.td_group_name {
+	PADDING-LEFT: 20px; WIDTH: 580px
+}
+TABLE.table_Info_List TD.td_member_name {
+	PADDING-LEFT: 20px; WIDTH: 580px
+}
+TABLE.table_Info_List TD.td_mailsubject {
+	PADDING-LEFT: 3px; WIDTH: 140px
+}
+TABLE.table_Info_List TD.td_maildate {
+	PADDING-LEFT: 3px; WIDTH: 160px
+}
+TABLE.table_Info_List TD.td_mailreceivers {
+	PADDING-RIGHT: 12px; TEXT-ALIGN: right; WIDTH: 80px
+}
+TABLE.table_Info_List TD.td_mailstatus {
+	PADDING-LEFT: 3px; TEXT-ALIGN: center; WIDTH: 110px
+}
+TABLE.table_Info_List TD.td_mailip {
+	PADDING-RIGHT: 5px; TEXT-ALIGN: right; WIDTH: 110px
+}
+TABLE.table_Info_List TD.td_mailemail {
+	PADDING-LEFT: 3px; WIDTH: 150px
+}
+TABLE.table_Info_List TD.td_mailsmobile {
+	PADDING-LEFT: 3px; WIDTH: 300px
+}
+TABLE.table_Info_List TD.td_define_name {
+	FONT-WEIGHT: bold; PADDING-RIGHT: 8px; TEXT-ALIGN: right; WIDTH: 150px
+}
+TABLE.table_Info_List TD.td_define_value {
+	PADDING-LEFT: 10px; WIDTH: 400px
+}
+TABLE.table_Info_List TD.td_define_value INPUT {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid
+}
+TABLE.table_Info_List TD.td_group_desc {
+	TEXT-ALIGN: center; WIDTH: 150px
+}
+TABLE.table_Info_List1 {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt
+}
+TABLE#id_line4 {
+	LEFT: 398px; POSITION: relative; TOP: -210px
+}
+TABLE#id_line5 {
+	LEFT: 398px; POSITION: relative; TOP: -210px
+}
+TABLE#id_line6 {
+	LEFT: 398px; POSITION: relative; TOP: -240px
+}
+TABLE#id_line8 {
+	LEFT: 398px; POSITION: relative; TOP: -270px
+}
+TABLE#id_line10 {
+	LEFT: 398px; POSITION: relative; TOP: -300px
+}
+TABLE#id_mail {
+	LEFT: -10px; POSITION: relative; TOP: -150px
+}
+TABLE.table_popup_opt {
+	BACKGROUND: #666666; LEFT: 398px; POSITION: relative; TOP: -180px; WIDTH: 120px
+}
+TABLE.table_popup_opt TD {
+	BACKGROUND: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+TABLE.table_popup_opt TR.tr_header TD {
+	BACKGROUND: #666666; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; HEIGHT: 8px; TEXT-ALIGN: right
+}
+TABLE.table_popup_opt TD A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+TABLE.table_popup_opt TD A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+TABLE.table_popup_opt TD A:hover {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+BODY.body_SystemMaintain_list TABLE.table_popup_opt {
+	BACKGROUND: #666666; LEFT: 338px; POSITION: relative; TOP: -180px; WIDTH: 160px
+}
+BODY.body_SystemMaintain_list TABLE.table_popup_opt TD {
+	BACKGROUND: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+BODY.body_SystemMaintain_list TABLE.table_popup_opt TR.tr_header TD {
+	BACKGROUND: #666666; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; HEIGHT: 8px; TEXT-ALIGN: right
+}
+BODY.body_SystemMaintain_list TABLE.table_popup_opt TD A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+BODY.body_SystemMaintain_list TABLE.table_popup_opt TD A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+BODY.body_SystemMaintain_list TABLE.table_popup_opt TD A:hover {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+BODY.body_SystemMaintain_list TABLE.table_popup_opt TABLE#id_setinforight {
+	BACKGROUND: #666666; LEFT: 398px; POSITION: absolute; TOP: -180px
+}
+BODY.body_SystemMaintain_list TABLE.table_header TD A:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_SystemMaintain_list TABLE.table_header TD A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_SystemMaintain_list TABLE.table_header TD A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+TABLE.table_tree_header {
+	MARGIN-LEFT: 0.8em; MARGIN-TOP: 1.5em; WIDTH: 200px
+}
+TABLE.table_tree_header TD.td_image {
+	BACKGROUND: url(/enterprise/images/icon/icon_2_35.gif) no-repeat center 50%; WIDTH: 33px
+}
+TABLE.table_tree_header TD A:link {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TABLE.table_tree_header TD A:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TABLE.table_tree_header TD A:active {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+TABLE.table_tree_header TD A:hover {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+TABLE.table_tree {
+	MARGIN-LEFT: 1.6em; WIDTH: 200px
+}
+TABLE.table_tree TD {
+	FONT-SIZE: 12px; FONT-WEIGHT: lighter; HEIGHT: 1.2em
+}
+TABLE.table_tree TD.td_image {
+	BACKGROUND: url(/enterprise/images/icon/icon_2_35.gif) no-repeat center 50%; WIDTH: 33px
+}
+TABLE.table_tree TD A:link {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TABLE.table_tree TD A:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TABLE.table_tree TD A:active {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+TABLE.table_tree TD A:hover {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+TABLE.table_popup_info {
+	BACKGROUND: #666666; CLEAR: both; FONT-SIZE: 9pt; WIDTH: 350px
+}
+TABLE.table_popup_info TD.td_sheettitle {
+	BACKGROUND: #f3f9b3; CLEAR: both; FONT-SIZE: 11pt; TEXT-ALIGN: center
+}
+TABLE.table_popup_info TD {
+	BACKGROUND: #cfcfcf
+}
+TABLE.table_popup_info TR.tr_header TD {
+	BACKGROUND: #666666; COLOR: #ffffff
+}
+TABLE.table_popup_info TR.tr_header TD.td_name {
+	FONT-WEIGHT: normal; PADDING-LEFT: 10px; TEXT-ALIGN: left
+}
+TABLE.table_popup_info TR.tr_header TD.td_value {
+	PADDING-RIGHT: 10px; TEXT-ALIGN: right
+}
+TABLE.table_popup_info TD.td_group {
+	BACKGROUND: #ecfbc8; HEIGHT: 20px
+}
+TABLE.table_popup_info TD.td_name {
+	FONT-WEIGHT: bold; PADDING-RIGHT: 3px; TEXT-ALIGN: right; WIDTH: 100px
+}
+TABLE.table_popup_info TD.td_value {
+	PADDING-LEFT: 3px; WIDTH: 250px
+}
+TABLE.table_header {
+	BACKGROUND: url(/enterprise/images/background/bgLineUp.gif) #888888; BORDER-COLLAPSE: collapse; COLOR: #ffffff; HEIGHT: 20px; MARGIN: 0px 0px 1em; WIDTH: 550px
+}
+TABLE.table_header TD.td_option {
+	PADDING-LEFT: 25px; WIDTH: 420px
+}
+TABLE.table_header TD.td_description {
+	BACKGROUND: url(/enterprise/images/background/bgLUpCorner.gif) fixed repeat-y right 50%; PADDING-RIGHT: 13px; TEXT-ALIGN: right
+}
+TABLE.table_description {
+	BORDER-COLLAPSE: collapse; COLOR: #000000; HEIGHT: 20px; MARGIN: 0px 0px 0.5em; WIDTH: 550px
+}
+TABLE.table_description TD.td_description {
+	PADDING-LEFT: 5px; WIDTH: 550px
+}
+TABLE.table_button {
+	MARGIN: 5px 0px 0px; WIDTH: 550px
+}
+TABLE.table_button TD {
+	TEXT-ALIGN: right
+}
+TABLE.table_button TD.td_return {
+	PADDING-LEFT: 20px; TEXT-ALIGN: right; WIDTH: 50px
+}
+TABLE.table_button IMG {
+	MARGIN: 0px 7px 0px 0px
+}
+TABLE.table_tail {
+	BACKGROUND: url(/enterprise/images/background/bgLineDown.gif); BORDER-COLLAPSE: collapse; MARGIN: 5px 5px 0px 0px; WIDTH: 550px
+}
+TABLE.table_tail TD.td_tail1 {
+	BACKGROUND: url(/enterprise/images/background/bgLDownCorner.gif) fixed repeat-y right 50%; HEIGHT: 20px
+}
+TABLE.table_tail TD.td_tail2 {
+	BACKGROUND: #ffffff; TEXT-ALIGN: center
+}
+TABLE.table_edit {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; PADDING-BOTTOM: 2em; PADDING-LEFT: 2em; PADDING-RIGHT: 10em; PADDING-TOP: 2em; WIDTH: 550px
+}
+TABLE.table_edit TD {
+	BACKGROUND: #e8e8e8; BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; HEIGHT: 22px; TEXT-ALIGN: center
+}
+TABLE.table_edit TD.td_subtitle {
+	BACKGROUND: #d2d2d2; HEIGHT: 8px; TEXT-ALIGN: center; WIDTH: 165px
+}
+TABLE.table_edit TD.td_multiselect {
+	BACKGROUND: #f5f5f5; VERTICAL-ALIGN: top
+}
+TABLE.table_edit TD.td_multiselect SELECT {
+	HEIGHT: 148px; WIDTH: 105px
+}
+TABLE.table_edit TD.td_choice_botton {
+	BACKGROUND: #f5f5f5; HEIGHT: 156px; TEXT-ALIGN: center; VERTICAL-ALIGN: middle; WIDTH: 105px
+}
+TABLE.table_edit TD.td_confirm_botton {
+	BACKGROUND: #f5f5f5
+}
+BODY.body_empower TD.td_multiselect SELECT {
+	HEIGHT: 148px; WIDTH: 180px
+}
+BODY.body_empower TABLE.table_edit TD.td_multiselect SELECT {
+	HEIGHT: 148px; WIDTH: 180px
+}
+BODY.body_empower TABLE.table_Info_List {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; WIDTH: 550px
+}
+BODY.body_empower TABLE.table_Info_List TD.td_group_name {
+	PADDING-LEFT: 20px; WIDTH: 280px
+}
+BODY.body_empower TABLE.table_Info_List TD.td_group_desc {
+	PADDING-LEFT: 20px; WIDTH: 150px
+}
+BODY.body_empower TABLE.table_Info_List TD.td_group_type {
+	PADDING-LEFT: 20px; WIDTH: 120px
+}
+TABLE.table_toolbar {
+	BORDER-COLLAPSE: collapse; HEIGHT: 17px; WIDTH: 550px
+}
+TABLE.table_toolbar TD.td_opt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; PADDING-TOP: 5px; WIDTH: 18px
+}
+TABLE.table_toolbar TD.td_return {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; PADDING-TOP: 5px; TEXT-ALIGN: right; WIDTH: 70px
+}
+TABLE.table_toolbar TD.td_line {
+	BACKGROUND: #f5f5f5; WIDTH: 480px
+}
+BODY.mailInPut {
+	TEXT-ALIGN: right
+}
+BODY.mailInPut TABLE.table_name_value {
+	WIDTH: 570px
+}
+BODY.mailInPut TABLE.table_name_value TD.td_name {
+	BACKGROUND: #dddddd; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px; WIDTH: 100px
+}
+BODY.mailInPut TABLE.table_name_value TD.td_value {
+	BACKGROUND: #ffffff; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_addressee INPUT.input_text {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_staffaddr INPUT.input_text {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_subaddr INPUT.input_text {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_custaddr INPUT.input_text {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_peraddr INPUT.input_text {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_theme INPUT.input_text {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_accessories INPUT.input_text {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 450px
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_content TD {
+	BACKGROUND: #ffffff
+}
+BODY.mailInPut TABLE.table_name_value TR.tr_content TEXTAREA {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 12px; WIDTH: 560px
+}
+BODY.upload {
+	BACKGROUND: #ffffff; TEXT-ALIGN: center
+}
+BODY.upload TABLE.table_upload {
+	WIDTH: 565px
+}
+BODY.upload TABLE.table_upload TD INPUT {
+	BACKGROUND-COLOR: #f6f6f6; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; WIDTH: 260px
+}
+BODY.upload TABLE.table_button {
+	BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; BORDER-RIGHT: 1px; BORDER-TOP: 1px; WIDTH: 565px
+}
+BODY.upload TABLE.table_button TD.td_image {
+	WIDTH: 350px
+}
+BODY.upload TABLE.table_button TD.td_button {
+	PADDING-RIGHT: 10px; TEXT-ALIGN: right; WIDTH: 215px
+}
+BODY.upload TABLE.delbutton {
+	BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; BORDER-RIGHT: 1px; BORDER-TOP: 1px; WIDTH: 565px
+}
+BODY.upload TABLE.delbutton TD.attach {
+	BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; BORDER-RIGHT: 1px; BORDER-TOP: 1px; WIDTH: 565px
+}
+BODY.upload TABLE.delbutton TD.td_button {
+	PADDING-RIGHT: 10px; TEXT-ALIGN: right
+}
+BODY.body_SystemMaintain TABLE.table_header TD.td_option {
+	BACKGROUND: url(/enterprise/images/background/bgNote.gif) no-repeat left 50%; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_SystemMaintain TABLE.table_header TD A:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_SystemMaintain TABLE.table_header TD A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_SystemMaintain TABLE.table_header TD A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_SystemMaintain TABLE.table_header TD A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_ShareFile TABLE.table_header TD.td_option {
+	BACKGROUND: url(/enterprise/images/background/bgNote.gif) no-repeat left 50%; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_ShareFile TABLE.table_header TD A:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_ShareFile TABLE.table_header TD A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_ShareFile TABLE.table_header TD A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+BODY.body_ShareFile TABLE.table_header TD A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+DIV.parent A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+DIV.parent A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+DIV.parent A:hover {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+DIV.parent A:active {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+DIV.child A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+DIV.child A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+DIV.child A:hover {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+DIV.child A:active {
+	BACKGROUND: #666666; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.breadcrumbBox {
+	COLOR: #0033cc; FONT-FAMILY: verdana; FONT-SIZE: 9pt
+}
+.messageNav {
+	FONT-FAMILY: verdana; FONT-SIZE: 9pt
+}
+.messageNavButton {
+	FONT-FAMILY: verdana; FONT-SIZE: 9pt
+}
+.subjectE {
+	WIDTH: 55%
+}
+.subjectOnE {
+	WIDTH: 55%
+}
+.usernameE {
+	COLOR: #000000; FONT-SIZE: 9pt; TEXT-ALIGN: center; WIDTH: 15%
+}
+.usernameOnE {
+	COLOR: #000000; FONT-SIZE: 9pt; TEXT-ALIGN: center; WIDTH: 15%
+}
+.datetimeE {
+	COLOR: #333333; FONT-SIZE: 9pt; WIDTH: 30%
+}
+.datetimeOnE {
+	COLOR: #333333; FONT-SIZE: 9pt; WHITE-SPACE: nowrap; WIDTH: 30%
+}
+.dateTimeListE {
+	COLOR: #666666; FONT-SIZE: 9pt; TEXT-ALIGN: center; WHITE-SPACE: nowrap; WIDTH: 1%
+}
+.dateTimeListTodayE {
+	COLOR: #ff6600; FONT-SIZE: 9pt; TEXT-ALIGN: center; WHITE-SPACE: nowrap; WIDTH: 1%
+}
+BODY.body_bbs {
+	BACKGROUND: #ffffff; COLOR: #000000; FONT-SIZE: 11pt; WHITE-SPACE: nowrap
+}
+BODY.body_bbs TR.tr_header {
+	BACKGROUND: #cccccc; TEXT-ALIGN: center
+}
+TABLE.table_bbs_blank {
+	BACKGROUND: #666666; BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; BORDER-RIGHT: 1px; BORDER-TOP: 1px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 100%
+}
+TABLE.table_bbs {
+	BACKGROUND: #eeeeee; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE.table_bbs TD.td_username {
+	TEXT-ALIGN: center; WIDTH: 145px
+}
+TABLE.table_bbs TD.td_buttons {
+	TEXT-ALIGN: right; WIDTH: 455px
+}
+TD.td_blank {
+	WIDTH: 80%
+}
+TD.td_previous {
+	WIDTH: 10%
+}
+TD.td_next {
+	WIDTH: 10%
+}
+TABLE.table_bbs_index {
+	WIDTH: 760px
+}
+TABLE.table_bbs_index TD.td_blank {
+	WIDTH: 6px
+}
+TABLE.table_bbs_index TD.td_forumlist {
+	VERTICAL-ALIGN: top; WIDTH: 50%
+}
+TABLE.table_bbs_index TD.td_recentmsg {
+	VERTICAL-ALIGN: top; WIDTH: 50%
+}
+TABLE.table_bbs_forumlist {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 330px
+}
+TABLE.table_bbs_forumlist TD.td_lastvisitedFlag {
+	WIDTH: 5px
+}
+TABLE.table_bbs_forumlist TD.td_forum {
+	WHITE-SPACE: nowrap; WIDTH: 325px
+}
+TABLE.table_bbs_forumlist TD.td_threads {
+	WHITE-SPACE: nowrap; WIDTH: 325px
+}
+TABLE.table_bbs_recentmsgframe {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 100%
+}
+TABLE.table_bbs_recentmsg {
+	BACKGROUND: #eeeeee; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px; WIDTH: 370px
+}
+TABLE.table_bbs_recentmsg TR.tr_header {
+	BACKGROUND: #cccccc
+}
+TABLE.table_bbs_recentmsg TD.td_header {
+	TEXT-ALIGN: center
+}
+TABLE.table_bbs_recentmsg TD.td_dot {
+	TEXT-ALIGN: center; VERTICAL-ALIGN: top; WIDTH: 1%
+}
+TABLE.table_bbs_recentmsg TD.td_msg {
+	WIDTH: 99%
+}
+TABLE.table_bbs {
+	WIDTH: 760px
+}
+TABLE.table_bbs_desc {
+	WIDTH: 760px
+}
+TABLE.table_bbs_desc TD.td_name {
+	BACKGROUND: #000000; BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; BORDER-RIGHT: 1px; BORDER-TOP: 1px; COLOR: white; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 10%
+}
+TABLE.table_bbs_desc TD.td_value {
+	BACKGROUND: #d7d7d7; BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; BORDER-RIGHT: 1px; BORDER-TOP: 1px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 90%
+}
+TABLE.table_bbs_msg {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; WIDTH: 760px
+}
+TABLE.table_bbs_msg TD {
+	BACKGROUND: #e8e8e8; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; COLOR: #000000; HEIGHT: 22px
+}
+TABLE.table_bbs_msg TR.tr_button {
+	TEXT-ALIGN: center
+}
+TABLE.table_bbs_msg TD.td_name {
+	TEXT-ALIGN: center; WIDTH: 10%
+}
+TABLE.table_bbs_breadcrumbs {
+	BACKGROUND: #ececec; WIDTH: 760px
+}
+TABLE.table_bbs_breadcrumbs TD.td_forum {
+	WHITE-SPACE: nowrap; WIDTH: 5%
+}
+TABLE.table_bbs_breadcrumbs TD.td_seperate {
+	WIDTH: 15px
+}
+TABLE.table_bbs_breadcrumbs TD.td_msg {
+	TEXT-ALIGN: left
+}
+TABLE.table_bbs_name_value {
+	WIDTH: 760px
+}
+.pageHeaderBg {
+	BACKGROUND-COLOR: #666666
+}
+.pageHeaderFg {
+	BACKGROUND-COLOR: #dddddd
+}
+.pageHeaderText {
+	FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.errorText {
+	COLOR: #ff0000; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 10pt
+}
+.messageText {
+	COLOR: #ff0000; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 10pt
+}
+.pageTitle {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.login {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 11pt
+}
+.adminHeader {
+	FONT-FAMILY: Trebuchet MS,arial,helvetica,sans-serif; FONT-SIZE: 18pt; FONT-STYLE: italic
+}
+.toolbarBg {
+	BACKGROUND-COLOR: #dddddd
+}
+.toolbarLink {
+	COLOR: #0000ff; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 11pt
+}
+.toolbarLink:hover {
+	COLOR: #cc3300
+}
+.sidebarNode {
+	COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 10pt
+}
+.sidebarLeaf {
+	COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 10pt
+}
+.sidebarLink {
+	
+}
+.sidebarLink:hover {
+	COLOR: #cc6600
+}
+.forumCellHeader {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 9pt
+}
+.forumCell {
+	FONT-FAMILY: verana,arial,helvetica,sans-serif; FONT-SIZE: 9pt
+}
+.viewForumHeader {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.viewForumDeck {
+	COLOR: #993333; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 10pt
+}
+.forumListHeader {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt; TEXT-ALIGN: center
+}
+.forumListCell {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 9pt
+}
+.forumListDateCell {
+	BACKGROUND-COLOR: #ffffff; COLOR: #660000; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+TABLE.table_bbsm_search {
+	WIDTH: 550px
+}
+TABLE.table_bbsm_search TD.td_text {
+	TEXT-ALIGN: right
+}
+TABLE.table_bbsm_forumList {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; WIDTH: 550px
+}
+TABLE.table_bbsm_forumList TR.tr_header TD {
+	BACKGROUND: #d2d2d2; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+TABLE.table_bbsm_forumList TD {
+	BACKGROUND: #e8e8e8; BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; HEIGHT: 22px
+}
+TABLE.table_bbsm_forumList TD.td_forumID {
+	TEXT-ALIGN: center; WIDTH: 30px
+}
+TABLE.table_bbsm_forumList TD.td_forumName {
+	WIDTH: 50px
+}
+TABLE.table_bbsm_forumList TD.td_forumDesc {
+	WIDTH: 310px
+}
+TABLE.table_bbsm_forumList TD.td_forumNum {
+	TEXT-ALIGN: center; WIDTH: 110px
+}
+TD.td_button {
+	TEXT-ALIGN: right
+}
+.normal {
+	WIDTH: 550px
+}
+TABLE.table_bbsm_detail {
+	BACKGROUND-COLOR: #666666; BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; WIDTH: 550px
+}
+TABLE.table_bbsm_detail TR.tr_subHeader {
+	BACKGROUND-COLOR: #ffffff
+}
+TABLE.table_bbsm_detail TR.tr_subHeader TD {
+	BACKGROUND-COLOR: #999999
+}
+TABLE.table_bbsm_detail_e {
+	BACKGROUND-COLOR: #999999; BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; WIDTH: 550px
+}
+TABLE.table_bbsm_detail_e TR {
+	BACKGROUND-COLOR: #ffffff
+}
+TABLE.table_bbsm_detail_e TD {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; WHITE-SPACE: nowrap
+}
+TABLE.table_bbs_Info_List {
+	WIDTH: 760px
+}
+TABLE.table_bbs_Info_List TD.td_bbs_replies {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap; WIDTH: 30px
+}
+TABLE.table_bbs_Info_List TD.td_bbs_postedby {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap; WIDTH: 60px
+}
+TABLE.table_bbs_Info_List TD.td_bbs_date {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap; WIDTH: 150px
+}
+TABLE.table_bbs_Info_List TD.td_bbs_postedby_e {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap; WIDTH: 90px
+}
+TABLE.table_bbs_Info_List TD.td_bbs_date_e {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap; WIDTH: 150px
+}
+TABLE.table_bbs_Info_List TD.td_bbs_page {
+	BACKGROUND-COLOR: #ffffff; COLOR: #000000; TEXT-ALIGN: left; WHITE-SPACE: nowrap
+}
+TABLE.table_bbs_Info_List TD.td_choice {
+	WIDTH: 20px
+}
+TABLE.table_bbs_Info_List TD.td_button {
+	TEXT-ALIGN: right
+}
+TABLE.table_bbs_Info_List TD.td_bbs_radio {
+	WIDTH: 90px
+}
+TABLE.table_bbs_Info_List TD.td_bbs_message {
+	WHITE-SPACE: nowrap; WIDTH: 660px
+}
+TABLE.table_bbsm_threadcontent {
+	BACKGROUND-COLOR: #666666; BORDER-BOTTOM: #ffffff 0px solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: #ffffff 0px solid; BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; WIDTH: 100%
+}
+TABLE.table_bbsm_threadcontent TD {
+	BACKGROUND-COLOR: #eeeeee
+}
+TABLE.table_bbsm_threadcontent TR.tr_subject {
+	BACKGROUND-COLOR: #dddddd
+}
+TABLE.table_bbsm_threadcontent TR.tr_username {
+	BACKGROUND-COLOR: #eeeeee
+}
+TABLE.table_bbsm_threadcontent TR.tr_body {
+	BACKGROUND-COLOR: #eeeeee
+}
+TABLE.table_bbsm_threadcontent TR.tr_attachment {
+	BACKGROUND-COLOR: #eeeeee
+}
+TABLE.table_bbsm_threadcontent td_blank {
+	BACKGROUND-COLOR: #ffffff
+}

@@ -1,0 +1,69 @@
+body,td,th {
+	font-size: 12px;
+	line-height: 1.5;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+INPUT{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: "ËÎÌו";
+	background-color: #ffffff;
+	border: 0px solid #ffffff;
+  WIDTH: 99%;
+  CURSOR: default;
+}
+
+.aa {
+	border-top: 1px none #000000;
+	border-right: 1px none #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px none #000000;
+	background-color: #F8FDFF;
+}
+.bb
+{
+  text-align:center;
+  CURSOR: hand;
+}
+.cc {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: "ËÎÌו";
+	background-color: #C0C0C0;
+	border: 0px solid #C0C0C0;
+  WIDTH: 99%;
+}
+.srfk {
+	border-top: 1px solid #7f9db9;
+	border-right: 1px solid #7f9db9;
+	border-bottom: 1px solid #7f9db9;
+	border-left: 1px solid #7f9db9;
+	background-color: #F8FDFF;
+}
+
+A:link, A:visited, A:active, A:hover { text-decoration: none } 
+A:link, A:visited, A:active { color: #005188 } 
+A:hover { color: red } SELECT {font-size:9pt}
+
+a.baizi:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.baizi:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.baizi:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+a.baizi:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.anbk{BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc}
